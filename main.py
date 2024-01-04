@@ -24,10 +24,9 @@ with st.sidebar:
   selected_menu_items = sac.menu([
       sac.MenuItem('Home', icon='house-fill'),
       sac.MenuItem('Fundamental Analysis', icon='box-fill'),
-      sac.MenuItem('Technical Analysis', icon='git',),
+      sac.MenuItem('Technical Analysis', icon='git'),
       sac.MenuItem('Greed & Fear Index', icon='google')
-      # sac.MenuItem('Useful Widgets', icon='Widgets')
-      ])
+  ])
 
   # ], format_func='title', open_all=True)
 
@@ -829,7 +828,7 @@ If the 50-day average is nearing the 200-day average but hasn’t crossed it yet
 
 
 
-# ____________________________________________________________________________________________________________________________________________________________________________
+# __________________________________________________________________________________________________________________________________________________________________________
 
 
 
