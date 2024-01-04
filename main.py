@@ -22,7 +22,8 @@ with st.sidebar:
   st.image("https://static.vecteezy.com/system/resources/previews/011/307/370/non_2x/uniswap-uni-badge-crypto-3d-rendering-free-png.png")
 
   selected_menu_items = sac.menu([
-      sac.MenuItem('Home', icon='house-fill', children=[
+      sac.MenuItem('Home', icon='house-fill'),
+      sac.MenuItem('Analysis', icon='house-fill', children=[
         sac.MenuItem('Fundamental Analysis', icon='box-fill'),
         sac.MenuItem('Technical Analysis', icon='git'),
         sac.MenuItem('Greed & Fear Index', icon='google'),
